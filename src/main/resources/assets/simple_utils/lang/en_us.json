@@ -1,4 +1,6 @@
 {
   "item.simple_utils.crimson_dust": "Crimson Dust",
-  "item.simple_utils.crimson_pulp": "Crimson Pulp"
+  "item.simple_utils.crimson_pulp": "Crimson Pulp",
+  "block.simple_utils.mashed_pulp": "Mashed Pulp",
+  "block.simple_utils.unprocessed_netherrack": "Unprocessed Netherrack"
 }

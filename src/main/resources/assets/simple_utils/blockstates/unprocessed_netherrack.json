@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "simple_utils:block/unprocessed_netherrack"
+    }
+  }
+}

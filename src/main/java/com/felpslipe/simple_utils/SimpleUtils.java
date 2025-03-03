@@ -1,5 +1,6 @@
 package com.felpslipe.simple_utils;
 
+import com.felpslipe.simple_utils.block.SimpleBlocks;
 import com.felpslipe.simple_utils.item.SimpleItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -37,6 +38,7 @@ public class SimpleUtils {
         NeoForge.EVENT_BUS.register(this);
 
         SimpleItems.register(modEventBus);
+        SimpleBlocks.register(modEventBus);
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -47,11 +49,14 @@ public class SimpleUtils {
     private void commonSetup(final FMLCommonSetupEvent event) {
     }
 
-    // Add the example block item to the building blocks tab
+    // Add the exa
+    // mple block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(SimpleItems.CRIMSON_DUST);
             event.accept(SimpleItems.CRIMSON_PULP);
+            event.accept(SimpleBlocks.MASHED_PULP);
+            event.accept(SimpleBlocks.UNPROCESSED_NETHERRACK);
         }
     }
 

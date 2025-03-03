@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "simple_utils:block/mashed_pulp"
+      },
+      {
+        "model": "simple_utils:block/mashed_pulp",
+        "y": 90
+      },
+      {
+        "model": "simple_utils:block/mashed_pulp",
+        "y": 180
+      },
+      {
+        "model": "simple_utils:block/mashed_pulp",
+        "y": 270
+      }
+    ]
+  }
+}

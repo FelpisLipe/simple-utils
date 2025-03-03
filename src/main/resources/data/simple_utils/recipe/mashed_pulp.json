@@ -1,0 +1,21 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "simple_utils:crimson_pulp"
+    },
+    {
+      "item": "simple_utils:crimson_pulp"
+    },
+    {
+      "item": "simple_utils:crimson_pulp"
+    }
+  ],
+  "results": [
+    {
+      "item": {
+        "id": "simple_utils:mashed_pulp"
+      }
+    }
+  ]
+}

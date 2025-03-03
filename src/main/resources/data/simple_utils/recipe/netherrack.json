@@ -1,0 +1,71 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item" : "simple_utils:mashed_pulp"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": {
+        "id": "minecraft:netherrack"
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "simple_utils:unprocessed_netherrack"
+        },
+        {
+          "type": "fluid_stack",
+          "amount": 250,
+          "fluid": "minecraft:lava"
+        }
+      ],
+      "results": [
+        {
+          "item": {
+            "id": "simple_utils:unprocessed_netherrack"
+          }
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "simple_utils:unprocessed_netherrack"
+        }
+      ],
+      "results": [
+        {
+          "item": {
+            "id": "simple_utils:unprocessed_netherrack"
+          }
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "simple_utils:unprocessed_netherrack"
+        }
+      ],
+      "results": [
+        {
+          "item": {
+            "id": "simple_utils:unprocessed_netherrack"
+          }
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "item": {
+      "id": "simple_utils:unprocessed_netherrack"
+    }
+  }
+}
