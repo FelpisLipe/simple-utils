@@ -1,0 +1,22 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:crimson_stem"
+    }
+  ],
+  "processing_time": 250,
+  "results": [
+    {
+      "item": {
+        "id": "simple_utils:crimson_dust"
+      }
+    },
+    {
+      "chance": 0.75,
+      "item": {
+        "id": "simple_utils:crimson_dust"
+      }
+    }
+  ]
+}

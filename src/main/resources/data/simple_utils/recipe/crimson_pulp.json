@@ -1,0 +1,36 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "simple_utils:crimson_dust"
+    },
+    {
+      "item": "simple_utils:crimson_dust"
+    },
+    {
+      "item": "simple_utils:crimson_dust"
+    },
+    {
+      "item": "simple_utils:crimson_dust"
+    },
+    {
+      "item": "simple_utils:crimson_dust"
+    },
+    {
+      "item": "simple_utils:crimson_dust"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 250,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "item": {
+        "id": "simple_utils:crimson_pulp"
+      }
+    }
+  ]
+}

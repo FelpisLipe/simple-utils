@@ -11,6 +11,8 @@ public class SimpleItems {
 
     public static final DeferredItem<Item> CRIMSON_DUST = ITEMS.register("crimson_dust",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CRIMSON_PULP = ITEMS.register("crimson_pulp",
+            () -> new Item(new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {

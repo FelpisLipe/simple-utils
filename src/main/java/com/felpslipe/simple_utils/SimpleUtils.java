@@ -51,6 +51,7 @@ public class SimpleUtils {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(SimpleItems.CRIMSON_DUST);
+            event.accept(SimpleItems.CRIMSON_PULP);
         }
     }
 
